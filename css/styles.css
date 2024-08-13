@@ -68,7 +68,7 @@ body {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .contacto .wsp {
     width: 49px;
@@ -99,6 +99,46 @@ body {
     font-size: 1.5rem;
 }
 
+/* redes sociales */
+.redes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.redes .instagram {
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/back_icono.png");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.redes .facebook {
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/back_icono.png");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.redes .youtube {
+    width:60px;
+    height:60px;
+    background-image: url("../img/back_icono.png");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.redes i{
+    color: var(--color-secundario);
+    font-size: 1.5rem;
+}
 
 /* botones --------*/
 .botones {
